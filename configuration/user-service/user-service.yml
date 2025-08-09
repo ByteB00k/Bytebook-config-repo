@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: user-service
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+    enabled: true
+springdoc:
+  swagger-ui:
+    enabled: true
