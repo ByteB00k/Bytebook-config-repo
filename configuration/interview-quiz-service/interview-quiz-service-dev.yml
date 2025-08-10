@@ -1,0 +1,20 @@
+spring:
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  datasource:
+    username: '{cipher}eedfe5ffc9e8e161073e5351b72dfc1a3fe72a14072a064a00eb21c2b6603dcf84acdc6e76e7f645223534c9fba967a4'
+    password: '{cipher}e712c40f870fb8e022afae95f5abd4d0c8025ae35b68c307258fe9a83edb6aef88dac58b8889a3b810fde58ef5462220'
+    url: jdbc:postgresql://localhost:5432/postgres
+
+  flyway:
+    user: '{cipher}eedfe5ffc9e8e161073e5351b72dfc1a3fe72a14072a064a00eb21c2b6603dcf84acdc6e76e7f645223534c9fba967a4'
+    password: '{cipher}e712c40f870fb8e022afae95f5abd4d0c8025ae35b68c307258fe9a83edb6aef88dac58b8889a3b810fde58ef5462220'
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/postgres
+
+server:
+  port: 8080

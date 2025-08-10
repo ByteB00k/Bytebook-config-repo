@@ -1,0 +1,27 @@
+spring:
+
+  output:
+    ansi:
+      enabled: detect
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 20
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    postgresql:
+      transactional-lock: true
+
+logging:
+  level:
+    org.springframework: info
+    org.springframework.web: debug
+    org.postgresql: info
+    org.hibernate: info
+    org.flywaydb: info

@@ -1,0 +1,13 @@
+logging:
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(%5p) [${spring.application.name}] [%X{traceId}] %clr(%msg){yellow} [%thread, %class]%n"
+
+management:
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+  endpoints:
+    web:
+      exposure:
+        include: health
