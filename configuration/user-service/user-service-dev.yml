@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/user-service
-    username: admin
-    password: "{cipher}f1e9566ac82b89494ba8932b3518463f4ee74696c7c4d9a65163726a4facd3f8%"
+    username: "{cipher}1a8750eba60ea523dec027826c5611fb01c03b54ae4278d070b04a3203b38cd9"
+    password: "{cipher}1a8750eba60ea523dec027826c5611fb01c03b54ae4278d070b04a3203b38cd9"
     driver-class-name: org.postgresql.Driver
   kafka:
     bootstrap-servers: localhost:9092
