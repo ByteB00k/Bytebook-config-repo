@@ -1,6 +1,6 @@
 spring:
   liquibase:
-    default_schema: user_service
+    default_schema: small_question_service
     change-log: classpath:/db/changelog/db.changelog-master.yaml
     enabled: true
 springdoc:
